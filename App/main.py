@@ -58,5 +58,12 @@ def create_app(config={}):
     app.app_context().push()
     return app
 
+
+
 app = create_app()
 migrate = get_migrate(app)
+
+#@app.route('/randomword')
+#def getRandomWord():
+    
+
